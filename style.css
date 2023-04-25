@@ -1,0 +1,248 @@
+body{
+    margin:0;
+    padding:0;
+    background: url('http://s3-us-west-2.amazonaws.com/techvibes/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: scroll;
+    font-family:'Netflix Font', sans-serif;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;                
+}
+
+.img-logo{
+    height: 94px;
+    margin-left: 45px;
+}
+
+.top{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 100px;
+}
+
+.bottom{
+    background-color: rgba(0, 0, 0, 0.87);
+    color: gray;
+}
+
+.enquire{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.enquire-link{
+    text-decoration: none;
+    color: #737373;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
+
+.enquire a:hover{
+    text-decoration: underline;
+}
+
+.bottomlist{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px 0 0 0;
+    margin-bottom : 2px;
+    margin-left: -35px;
+}
+
+.list{
+    list-style: none;
+    width:25%;
+    margin-left: -3px;
+    margin-top: 13px;
+    font-size: .85rem;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(116, 114, 114);
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.login-form{
+    margin: 0 auto;
+    width: 320px;
+    background-color: rgba(0, 0, 0, 0.685);
+    border-radius: 5px;
+    padding: 30px 70px 160px 70px;
+}
+
+h1{
+    color:white;
+    padding-bottom :40px;
+    margin-bottom :-10px;
+}
+
+.login-input{
+    margin-bottom: 18px;
+}
+
+.login-input input{
+    width: 100%;
+    height:50px;
+    text-indent: 18px;
+    color:white;
+    background-color: #333;
+    border: none;
+    border-radius:5px;
+    outline: transparent;
+    font-size: 1rem;
+}
+
+.login-input input::-webkit-input-placeholder {
+    font-size: 1rem;
+    color: #999;
+}
+
+.login-input input::-moz-input-placeholder {
+    font-size: 1rem;
+    color: #999;
+    text-indent: 40px;
+}
+
+.button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgb(243, 28, 28);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.remember{
+    display: flex;
+    margin-top: 12px;
+    font-size: 0.85rem;
+    justify-content: space-between;
+}
+
+.remember input{
+    width: 15px;
+    height: 15px;
+}
+
+.color-text{
+    color: #b3b3b3;
+}
+
+.help a{
+    text-decoration: none;
+}
+
+.help a:hover{
+    text-decoration: underline;
+}
+
+.protection{
+    color: #737373;
+}
+
+.signup{
+    text-decoration: none;
+    color: #8c8c8c;
+    margin-top: 75px;
+    font-size: 1.05rem;
+}
+
+.signup-link{
+    text-decoration: none;
+    color: white;
+}
+
+.signup-link:hover{
+    text-decoration: underline;
+}
+
+.error{
+    display: none;  
+    color:#db7807;
+    margin-top: 0;
+    margin-top: 6px;
+    font-size: 0.85rem;
+}
+
+.protection{
+    margin-top: 15px;
+    font-size: .85rem;
+}
+
+.protection a{
+    text-decoration: none;
+    color: rgb(44, 100, 221)
+}
+
+.protection a:hover{
+    text-decoration: underline;
+}
+
+.select-language{
+    background-color: #000;
+    background-size: 12px;
+    background-repeat: no-repeat;
+    margin: 30px 0 30px 0;
+    color: #737373;
+    padding: 14px 20px 14px 14px;
+    min-height: 40px;
+    font-size: .90rem;
+    border: 1px solid #333;
+    border-radius: 2px;
+}
+
+
+/* Screen Size : */
+
+@media all and (max-width : 740px){
+    body{
+        background: black;
+    }
+
+    .img-logo{
+        margin-left: 20px;
+    }
+    
+    .login-form{
+        width: 95%;
+        padding: 0 10px;
+    }
+
+    .login-div{
+        width: 95%;
+        margin: 0 auto;  
+    }
+
+    .top{
+        padding-bottom: 95px;
+    }
+
+    .bottom{
+        border-top: 1px solid #737373;
+        margin-top: 10px;
+    }
+
+    .list{
+        width:33%;
+    }
+
+    .select-language{
+        margin-top: 30px;
+    }
+}
+
+@media all and (max-width: 500px){
+    .list{
+        width: 50%;
+    }
+}     

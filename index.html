@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/netflix-font" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="img/logo.png" rel="icon">
+    <title>Netflix</title> 
+</head>
+<body>
+<!-- Top -->
+    <div class="top">
+
+        <div class="logo">
+            <a href="#"><img class="img-logo" src="img/Netflix-Logo.png"/></a>
+        </div>
+
+        <div class="login-div">
+
+            <form class="login-form" id="form">
+
+                <h1>Sign In</h1>
+
+                <div class="login-input">
+                    <input type="text" id="email" name="email" placeholder="Email or phone number" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)">
+                    <div class="error" id="emailError">
+                        Please enter a valid email address or phone number.
+                    </div>
+                </div>
+
+                <div class="login-input">
+                    <input type="password" id="password" name="password" placeholder="Password" onfocus="inputOnFocus(this)" onblur="inputOnBlur(this)">
+                    <div class="error" id="passwordError">
+                        Your password must contain between 4 and 60 characters.
+                    </div>
+                </div>
+
+                <div>
+                    <button class="button">Sign In</button>
+                </div>    
+                
+                <div class="remember">
+                    <div>
+                        <input type="checkbox">
+                        <label class="color-text">Remember me</label>
+                    </div>
+                
+                    <div class="help">
+                        <a class="color-text" href="#">Need help?</a>
+                    </div>
+                </div>
+
+                <div class="signup">
+                    New to Netflix? <a class="signup-link" href="#">Sign up now.</a>
+                </div>
+
+                <div class="protection">
+                    This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#"> Learn more.</a> 
+                </div>    
+
+            </form>
+        </div>
+    </div>
+
+<!-- Bottom -->
+<footer>
+    <div class="bottom">
+
+        <div class="enquire">
+            Questions? Call <a class="enquire-link" href="#">000-800-919-1694</a> 
+            <div>
+                <ul class="bottomlist">
+                    <li class="list">
+                        <a href="#" class="link">FAQ</a>
+                    </li>
+
+                    <li class="list">
+                        <a href="#" class="link">Help Center</a>
+                    </li>
+
+                    <li class="list">
+                        <a href="#" class="link">Terms of Use</a>
+                    </li>
+
+                    <li class="list">
+                        <a href="#" class="link">Privacy</a>
+                    </li>
+
+                    <li class="list">
+                        <a href="#" class="link">Cookie Preferences</a>
+                    </li>
+                    
+                    <li class="list">
+                        <a href="#" class="link">Corporate Information</a>
+                    </li>
+                </ul>
+            </div>
+        
+            <div>
+                <select class="fa select-language">
+                    <option> &#xf0ac; &nbsp;&nbsp;&nbsp; English</option>
+                    <option> &#xf0ac; &nbsp;&nbsp;&nbsp; தமிழ்</option>
+                    <option> &#xf0ac; &nbsp;&nbsp;&nbsp; हिंदी</option>
+                </select>
+            </div>
+        </div>    
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>    
