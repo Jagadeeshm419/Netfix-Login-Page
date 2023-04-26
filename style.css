@@ -134,6 +134,10 @@ h1{
     height: 15px;
 }
 
+.checkbox{
+    accent-color: #ffff;
+}
+
 .color-text{
     color: #b3b3b3;
 }
